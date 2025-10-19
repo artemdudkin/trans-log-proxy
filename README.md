@@ -15,6 +15,13 @@ Usually I run it as a service with [pm2sd](https://github.com/artemdudkin/pm2sd)
 |ADDITIONAL_\{N\}_PATH|Requests with url starting with given path will be redirected to url specified below|
 |ADDITIONAL_\{N\}_URL|('N' means number; starting from 1)|
 
+## Run
+
+```
+node index.js config.file
+```
+(you can omit config.file and it will use `./index.cfg`)
+
 ## Sample output
 
 ```
