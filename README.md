@@ -17,7 +17,7 @@ Usually I run it as a service with [pm2sd](https://github.com/artemdudkin/pm2sd)
 
 ## Sample output
 
-``
+```
 Using config from C:\Users\A\src\_github\cfg
   all --> http://192.168.1.1/
 Server listening at http://localhost:8081
@@ -42,4 +42,4 @@ Server listening at http://localhost:8081
    x-content-type-options = nosniff
    x-frame-options = SAMEORIGIN
 << BODY[77] {"error":"invalid_request","error_description":"Missing parameter: username"}
-``
+```
