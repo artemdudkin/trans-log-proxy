@@ -1,0 +1,22 @@
+{
+  "name": "trans-log-proxy",
+  "description": "HTTP transparent logging proxy",
+  "version": "0.0.1",
+  "private": false,
+  "main": "index.js",
+  "bin": {
+    "pm2sd": "bin/tlp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artemdudkin/trans-log-proxy"
+  },
+  "keywords": [],
+  "author": "Artem Dudkin <sheeva@list.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-http-proxy": "^2.1.2"
+  }
+}
